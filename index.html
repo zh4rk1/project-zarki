@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>PixelCanvas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <!-- Font Awesome ikonları üçün -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://zh4rk1.github.io/project-zarki/css/style.css">
+</head>
+<body>
+
+<!-- Yuxarı sol küncdəki GIF ikon -->
+<img src="https://images.steamusercontent.com/ugc/15567549258810900436/F4AA40ABAC19AC1674F6777F9084F49C662BF413/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" class="top-left-icon" id="topIcon" alt="Project Icon">
+
+<div id="loadingOverlay"><div class="spinner"></div></div>
+<div id="countdown">00 <br>30</div>
+<canvas id="canvas" style="display:none;"></canvas>
+
+<div class="toolbar-container" id="mainToolbar">
+  <div class="drag-handle" id="toolbarHandle">
+    <span class="material-symbols-outlined">expand_less</span>
+  </div>
+  <div class="toolbar" id="colorPalette"></div>
+</div>
+
+<div class="side-tools" id="sideTools" style="display:none;">
+    <div class="zoom-controls" id="zoomControls">
+      <button id="zoomIn" class="zoom-btn"><span class="material-symbols-outlined">add</span></button>
+      <button id="zoomOut" class="zoom-btn"><span class="material-symbols-outlined">remove</span></button>
+    </div>
+    <div class="shades-toolbar" id="shadesPalette"></div>
+    
+    <!-- Yeni Sosial İkonlar Paneli -->
+    <div class="social-toolbar">
+      <a href="https://instagram.com" target="_blank" class="social-icon-btn instagram" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://github.com" target="_blank" class="social-icon-btn github" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+</div>
+
+<div id="errorMessage"></div>
+<div id="onlineCountBar" title="Online"><div class="dot"></div></div>
+<div id="maintenanceMsg">Sistem təmir edilir!</div>
+
+<script type="module" src="https://zh4rk1.github.io/project-zarki/js/script.js">
+</script>
+</body>
+</html>
