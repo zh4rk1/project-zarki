@@ -14,11 +14,11 @@ Xəritə böyüdükcə kollektiv əmək, səbr və yaradıcılıq daha aydın g�
 
 Burada əsas məqsəd:
 
-Yeni İl ruhunu paylaşmaq
+ - Yeni İl ruhunu paylaşmaq
 
-İnsanları ortaq bir layihədə birləşdirmək
+ - İnsanları ortaq bir layihədə birləşdirmək
 
-Rəqəmsal məkanda qalıcı bir Yeni İl xatirəsi yaratmaqdır
+ - Rəqəmsal məkanda qalıcı bir Yeni İl xatirəsi yaratmaqdır
 
 🎨 Pixel Anlayışı
 
