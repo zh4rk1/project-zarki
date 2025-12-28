@@ -192,7 +192,7 @@
       transition: background 0.2s;
     }
     .social-icon-btn:hover {
-      background: rgba(255, 255, 255, 0.1);
+      background: rgb(90 89 89 / 90%);
     }
     /* .social-icon-btn.instagram {
       background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
